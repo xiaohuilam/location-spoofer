@@ -36,7 +36,7 @@ final class BuiltInVPNManager: ObservableObject {
     static let shared = BuiltInVPNManager()
 
     private enum Constants {
-        static let providerBundleID = "plus.pki.location-spoofer.vpn"
+        static let providerBundleID = "com.paopaolabs.location-spoofer.vpn"
         static let localizedDescription = "Paopao 内置VPN"
         static let connectTimeout: TimeInterval = 30
         static let targetHosts = ["gs-loc.apple.com", "gs-loc-cn.apple.com"]
