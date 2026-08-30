@@ -45,7 +45,7 @@ IPA 内的 `PlugIns/PaopaoVPNExtension.appex` 是内置 VPN 模式的 Network Ex
   该权限只能由付费 Apple Developer 账号签发，免费个人账号签名的构建无法加载扩展。
 - 自签安装时，为 App 应用 `Scripts/impactor-entitlements-app.plist`，为扩展应用
   `Scripts/impactor-entitlements-extension.plist`。
-- 扩展与 App 共用 App Group `group.plus.pki.location-spoofer` 与同一 keychain access group
+- 扩展与 App 共用 App Group `group.com.paopaolabs.location-spoofer` 与同一 keychain access group
   （CA 证书存储），签名时不要改动这两个值。
 
 模拟器无法加载 Network Extension，内置 VPN 只能真机验证。
